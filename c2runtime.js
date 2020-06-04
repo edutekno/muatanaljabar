@@ -24385,8 +24385,8 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Button,
 	cr.plugins_.Browser,
+	cr.plugins_.Button,
 	cr.plugins_.c2canvas,
 	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
